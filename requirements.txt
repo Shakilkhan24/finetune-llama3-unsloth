@@ -1,0 +1,8 @@
+unsloth
+transformers>=4.34.0
+datasets>=2.16.0
+wandb
+torch>=2.0.0
+peft
+trl
+xformers<0.0.26 
