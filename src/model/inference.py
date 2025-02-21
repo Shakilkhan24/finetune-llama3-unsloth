@@ -46,7 +46,7 @@ class LlamaBanglaInference:
             return self.tokenizer.batch_decode(outputs)
 
     def _format_prompt(self, instruction, input_text):
-        return f"""Below is an instruction in bangla that describes a task, paired with an input also in bangla that provides further context. Write a response in bangla that appropriately completes the request.
+        return f"""Below is an instruction {instruction} in bangla that describes a task, paired with an input also in bangla that provides further context : {input_text} . Write a response in bangla that appropriately completes the request.
 
 ### Instruction:
 {instruction}
