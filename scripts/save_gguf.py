@@ -27,7 +27,11 @@ def save_model_gguf():
         trainer.tokenizer,
         quantization_method="q4_k_m"
     )
-
+    
+    # Generate Modelfile for Ollama
+    modelfile_content = trainer.tokenizer._ollama_modelfile
+    with open(f"{save_path}/Modelfile", "w") as f:
+        f.write(modelfile_content)
 
 if __name__ == "__main__":
     save_model_gguf() 
