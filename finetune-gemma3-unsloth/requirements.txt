@@ -1,0 +1,13 @@
+unsloth
+vllm
+transformers
+torch
+accelerate
+bitsandbytes
+xformers==0.0.29.post3
+peft
+trl
+datasets
+sentencepiece
+protobuf
+huggingface_hub

@@ -1,0 +1,19 @@
+gemma_finetuning/
+├── data/
+│   ├── raw/
+│   │   └── training_data.json
+│   └── processed/
+│       └── processed_dataset.json
+├── models/
+│   └── checkpoints/
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_processing.py
+│   ├── model.py
+│   ├── trainer.py
+│   └── utils.py
+├── notebooks/
+│   └── training.ipynb
+├── requirements.txt
+└── README.md
