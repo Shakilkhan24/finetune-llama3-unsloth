@@ -1,0 +1,1 @@
+python src/training.py --model_path "models/finance/finetuned_20250324_123456" --dataset_path "sahil2801/CodeAlpaca-20k" --output_dir "models/programming"
